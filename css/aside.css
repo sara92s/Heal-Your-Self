@@ -1,0 +1,53 @@
+#aside {
+    width: 25%;
+    float: left;
+    margin: 10px;
+    margin-top: 160px;
+    font-style: italic;
+    border: 2px solid  #e2b4e2;
+    border-radius: 15px 10px;
+    box-shadow: 5px 10px 5px  #f0e4f0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#aside:hover{
+    background-color: #f5eaf5;
+    cursor: pointer;
+}
+#aside h3 {
+    width: 94%;
+    text-align: center;
+    background-color: #283e56 ;
+    color: #FFF;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 10px;
+    margin: 0;
+}
+#aside ol li {
+    background-color: #e2b4e2;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: right;
+}
+#aside ol li a {
+    text-indent: 10px;
+    padding: 20px;
+}
+#aside ol li a:link,
+#aside ol li a:visited {
+    text-decoration: none;
+    color:white;
+    font-size: 1.1em;
+    padding: 10px;
+    transition: all 0.5s;
+}
+#aside ol li:hover,
+#aside ol li:active {
+    text-indent: 20px;
+    background-color: #283e56;
+}

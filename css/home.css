@@ -1,0 +1,63 @@
+@import url(all.css);
+
+.container1 {
+    float: right;
+    width: 70%;
+    height: auto;
+    padding: 15px;
+    margin: 25px;
+    border: 2px solid  #e2b4e2;
+    border-radius: 15px 10px;
+    box-shadow: 5px 10px 5px  #f0e4f0;
+}
+.container1, img {
+    border-radius: 15px 10px;
+    margin-right: 15px;
+    height: 300px;
+}
+.container1:hover{
+    background-color: #f5eaf5;
+    cursor: pointer;
+}
+.container2:hover{
+    background-color: #f5eaf5;
+    cursor: pointer;
+}
+.container3:hover{
+    background-color: #f5eaf5;
+    cursor: pointer;
+}
+.container2 {
+    float: left;
+    width: 70%;
+    height: auto;
+    padding: 15px;
+    margin: 25px;
+    border: 2px solid  #e2b4e2;
+    border-radius: 15px 10px;
+    box-shadow: 5px 10px 5px  #f0e4f0;
+}
+.container3 {
+    float: right;
+    width: 70%;
+    height: auto;
+    padding: 15px;
+    margin: 25px;
+    border: 2px solid  #e2b4e2;
+    border-radius: 15px 10px;
+    box-shadow: 5px 10px 5px  #f0e4f0;
+}
+.container3, iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p1 {
+    border: 1px solid #f0e4f0;
+    border-radius: 15px 10px;
+    box-shadow: 5px 10px 5px  #f0e4f0;
+    padding: 15px;
+    margin: 15px;
+    float: right;
+    width: 45%;
+}

@@ -1,0 +1,30 @@
+@import url(nav.css);
+@import url(aside.css);
+@import url(footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Lateef&family=Noto+Nastaliq+Urdu&family=Qahiri&family=Rakkas&display=swap');
+
+#header {
+    background-color: #283e56 ;
+    border-radius: 10px;
+    border: none;
+    padding-right: 20px;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+html,
+body {
+    background-color:white ;
+    font-family: 'Lateef', cursive;
+    color: #283e56 ;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-bottom: 0;
+}
+main {
+    float: right;
+}

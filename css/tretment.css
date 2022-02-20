@@ -1,0 +1,65 @@
+@import url(all.css);
+
+.container1 {
+    height: auto;
+    padding: 15px;
+    margin: 25px;
+    margin-bottom: 100px;
+    border: 2px solid  #e2b4e2;
+    border-radius: 15px 10px;
+    box-shadow: 5px 10px 5px  #f0e4f0;
+}
+.container1:hover{
+    background-color: #f5eaf5;
+    cursor: pointer;
+}
+.p1 {
+    border: 1px solid #f0e4f0;
+    border-radius: 15px 10px;
+    box-shadow: 5px 10px 5px  #f0e4f0;
+    padding: 15px;
+    margin: 15px;
+    margin-bottom: 25px;
+    float: right;
+}
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.collapsible {
+    background-color: #e2b4e2;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: right;
+    outline: none;
+    font-size: 20px;
+}
+.active, .collapsible:hover {
+    background-color: #283e56;
+}
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+button.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    width: 200px;
+}
+table, td {
+    border-radius: 15px;
+    border-collapse: collapse;
+}
+.td2 {
+    padding-right: 200px;
+}

@@ -1,0 +1,45 @@
+
+.logo {
+    width: 145;
+    height: 107px;
+    float: left;
+    padding: 10px 0;
+}
+.navbar {
+    float: right;
+}
+nav li {
+    display: inline-block;
+    margin-left: 60px;
+    padding-top: 40px;
+    position: relative;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #a6def0
+}
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color:#a6def0;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all 0.5s;
+}
+nav a:hover::before {
+    width: 100%;
+}

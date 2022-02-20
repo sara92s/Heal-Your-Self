@@ -1,0 +1,57 @@
+#footer {
+    display: flex;
+    background-color: #303036;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px ;
+    height: 150px;
+    margin-bottom: 0;
+}
+.social {
+    width: 50%;
+    padding: 0;
+    text-align: center;
+}
+.call i {
+    color: #fff;
+    font-size: 30px;
+    padding: 5px;
+    margin: 0;
+    
+}
+
+.call{
+    width: 50%;
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+    border: 1px solid #444;
+    border-radius: 0px 0px 10px 10px ;
+    background-color: #283e56;
+    color: #fff;
+    margin-bottom: 0;
+}
+h2 {
+    margin: 3px;
+}
+h4 {
+    margin: 0;
+}
+.yahoo {
+    margin: 0;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+}
+.fa-instagram:hover {
+    color: #E1306C;
+}
+.fa-twitter:hover {
+    color: #00aced;
+}
+.fa-youtube:hover {
+    color: #FF0000;
+}

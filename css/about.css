@@ -1,0 +1,93 @@
+@import url(all.css);
+
+.container1 {
+    width: 68%;
+    height: auto;
+    padding: 15px;
+    margin: 25px;
+    margin-bottom: 100px;
+    border: 2px solid  #e2b4e2;
+    border-radius: 15px 10px;
+    box-shadow: 5px 10px 5px  #f0e4f0;
+}
+.container1:hover{
+    background-color: #f5eaf5;
+    cursor: pointer;
+}
+.collapsible {
+    background-color: #e2b4e2;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: right;
+    outline: none;
+    font-size: 15px;
+}
+.active, .collapsible:hover {
+    background-color: #283e56;
+}
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+button.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+table, th, td {
+    border: 1px solid white;
+    border-radius: 15px;
+    border-collapse: collapse;
+}
+th {
+    background-color: #badbfd;
+}
+td {
+    background-color: #d8e9fa;
+}
+.box {
+    justify-content: center;
+    display: flex;
+    margin: 5px;
+}
+.image {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+.buy a {
+    text-decoration: none;
+}
+.buy ul li{
+    display: inline-block;
+    margin-left: 200px;
+}
+.buy ul li a i {
+    color: black;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+}
+.buy ul li a i:hover {
+    transition: all .3s;
+    color: #ffde25;
+}
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
